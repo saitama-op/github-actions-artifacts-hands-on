@@ -26,7 +26,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: hello-artifiact
+          name: hello-artifact
           path: ./artifact/
 
       - name: display file
